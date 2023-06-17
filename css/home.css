@@ -1,0 +1,87 @@
+.font-Marvel h2 {
+  font-size: 5rem;
+}
+
+body {
+  background-image: url("../img/background1.jpg");
+}
+
+h1 {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de,
+    0 0 80px #ff00de, 0 0 100px #ff00de;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+h1:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #00ffff, 0 0 70px #00ffff,
+    0 0 80px #00ffff, 0 0 100px #00ffff;
+}
+
+h2 {
+  text-shadow: 0px 0px 10px white, 0px 0px 20px greenyellow;
+}
+
+.center {
+  justify-content: center;
+}
+
+#listaPersonajes {
+  padding-top: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-outline-dark {
+  box-shadow: 0 0 10px rgb(0, 153, 0),0 0 10px rgb(142, 255, 142);
+}
+
+.btn-size{
+font-style: italic;
+font-weight: bold;
+font-size: 1.5rem;
+height: 3rem;
+margin: 10px;
+background-color: #fff;
+}
+
+.lP-extend {
+  background-color: rgb(244, 255, 245);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.text-bold {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card-personaje {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.img-error {
+  box-shadow: 0px 0px 20px white, 0px 0px 20px red;
+  height: 50vh;
+}
+
+#botones {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#antComic,
+#proxComic {
+  display: none;
+}
+
+.img-Comic {
+  height: 5rem;
+  margin: 2px 30px;
+}

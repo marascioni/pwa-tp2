@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Marvel";
+  src: url("../fonts/Adventure.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.font-Marvel {
+  font-family: "Marvel";
+  text-align: center;
+  font-size: 4rem;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-logo {
+  width: 3.5rem;
+}
+
+.div-conex {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.img-conex {
+  width: 2.5rem;
+}
+
+.lP-height {
+  height: 52vh;
+}
+
+.card {
+  box-shadow: 0px 0px 40px black, 0px 0px 50px black;
+  margin: 2px;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.img-height {
+  height: auto;
+  width: 70%;
+  align-self: center;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(255, 0, 0);
+}
+
+.title-comic {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.img-favorito {
+  height: 2.5rem;
+  align-self: flex-end;
+}
+
+.img-heart {
+  position: absolute;
+  right: 2px;
+  top: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+.h2-trivia {
+  font-size: 1.7rem;
+  text-shadow: 0px 0px 20px rgb(0, 0, 255),0px 0px 20px rgb(0, 0, 255), 0px 0px 20px rgb(0, 255, 0), 0px 0px 40px rgb(0, 255, 0);
+  color: #e1e1e1;
+}
+
+.h3-trivia {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.form-check-label {
+  font-size: 1.5rem;
+}
+
+.form-check-input {
+  margin-top: 12px;
+}
+
+.p-trivia{
+  text-align:right;
+  margin: 0;
+  margin-right: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;    
+}
+
+.img-trivia {
+  height: 15rem;
+  
+}
+
+.lP-trivia {
+  text-align: center;
+  background-color: rgb(244, 255, 245);
+}
+
+footer {
+  background-color: rgb(255, 255, 131);
+  text-align: center;
+  padding: 10px 10px 6px 0px;
+  margin-top: 20px;
+  height: 12vh;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0, 255, 0);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 255, 0, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.tamano {
+  width: auto;
+  height: 25px;
+  border: 3px solid black;
+}
+
+.btn-pwa {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btn-pwa:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}

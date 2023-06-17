@@ -1,0 +1,86 @@
+body {
+  background-image: url("../img/bck-favoritos2.jpg");
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 231, 231),
+    0 0 30px rgb(255, 203, 203), 0 0 40px #ea00ff, 0 0 70px #ea00ff,
+    0 0 80px #ea00ff, 0 0 100px #ea00ff;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+}
+
+h1:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1),
+    0 0 30px rgba(255, 255, 255, 1), 0 0 40px #00ffff, 0 0 70px #00ffff,
+    0 0 80px #00ffff, 0 0 100px #00ffff;
+}
+
+.img-heart {
+  cursor: default !important;
+}
+
+.modal-content {
+  background-color: rgb(235, 235, 235);
+}
+
+.modal-text {
+  font-style: italic;
+  padding: 0rem 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: -0.2rem;
+  font-size: 1.2rem;
+}
+
+.bg-shadow {
+  transition: 2s;
+  box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px blue,
+    0 0 50px blue;
+}
+
+.bg-shadow:hover {
+  transition: 2s;
+  box-shadow: 0 0 10px rgb(43, 255, 0), 0 0 20px rgb(43, 255, 0),
+    0 0 30px rgb(43, 255, 0), 0 0 40px red, 0 0 50px red;
+}
+
+.btn-cerrar {
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgb(255, 0, 0) inset;
+  margin: auto;
+  width: 40%;
+}
+
+.f-abajo {
+  position: absolute;
+  bottom: 0;
+}
+
+.no-comics{
+  background-color: #000;  
+  height: auto;     
+  margin: auto;
+  text-align: center;
+  padding-top: 2rem;    
+
+}
+.no-comics h2{       
+  color: white;
+  margin-bottom: 2rem;
+  letter-spacing: 3px;  
+  text-shadow: 0 0 20px white,0 0 20px red,0 0 20px greenyellow;
+}
+
+.no-comics img{         
+    margin-bottom: 2rem;  
+    max-width: 90%;
+    height: 40vh;
+    width: auto;
+    border-radius: 5px;
+}
