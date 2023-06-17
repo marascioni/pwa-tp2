@@ -6,8 +6,9 @@ Segundo parcial PWA
 ### Alumna: Carolina Saurrales
 ### Alumno: Miguel Rascioni
 
-Se ingresa por medio de la página https://pwa-parcial-1-fold6jclv-marascioni.vercel.app/
-Ingresar el nombre de la ciudad en el único input de la página y presionar el botón que tiene la imagen de una lupa.
-Se eligieron los dos caminos (A y B) tanto para mostrar un video que se relacione con el clima de la ciudad como un mapa de la ciudad.
+Se ingresa por medio de la página https://pwa-parcial-2-xi.vercel.app/
+Para buscar un personaje de debe ingrear el nombre y presionar el botón Buscar.
+La aplicación es instalable.
+En caso de estar offline, aparece una trivia de 15 preguntas en el Home.
 
 Año 2023 - 1° Cuatrimestre
