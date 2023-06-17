@@ -1,0 +1,15 @@
+const APIKEY='dece971c4c1375702d1cb6ed0d6e682b';
+const hash='b075430a64dd48f926293cc37446cd40';
+const inputPersonaje = document.getElementById("inputPersonaje");
+const buscar = document.getElementById("buscar");
+const listaComics = document.getElementById("listaComics");
+const listaPersonajes = document.getElementById("listaPersonajes");
+const botones = document.getElementById("botones");
+const antComic=document.getElementById('antComic');
+const proxComic=document.getElementById('proxComic');
+listaPersonajes.classList.add('lP-height');
+var catalogoCompleto=[];
+var catalogoCompletoComics=[];
+var personajeFiltrado=[];
+var comicsFavoritos=[];
+var totalPersonajes=0;
