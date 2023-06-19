@@ -8,7 +8,8 @@
 .font-Marvel {
   font-family: "Marvel";
   text-align: center;
-  font-size: 4rem;
+  font-size: 6vh;
+  font-weight: bold;
 }
 
 body {
