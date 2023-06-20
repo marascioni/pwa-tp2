@@ -57,7 +57,10 @@ const mostrarPregunta = (id) => {
   if (id >= preguntas.length) {
     mostrarTotalCorrectas();
   } else {
-    var HTML = `<p class="p-trivia">${id+1}/${preguntas.length}</p>`;
+    listaPersonajes.classList.remove("lP-height");
+    var HTML = `
+    <div class="container">
+    <p class="p-trivia">${id+1}/${preguntas.length}</p>`;
     HTML += `<h2 class="my-3 w-75 mx-auto h2-trivia">${preguntas[id].q}</h2>`;
     for (let i = 0; i < 4; i++) {
       let optionValue = `preguntas[${id}].o` + (i + 1);
@@ -72,7 +75,7 @@ const mostrarPregunta = (id) => {
             `;
     }
     HTML +=
-      '<button id="submit" type="button" class="btn btn-pwa my-3">Responder</button>';
+      '<button id="submit" type="button" class="btn btn-pwa my-3">Responder</button> </div>';
     trivia.innerHTML = HTML;
     document.getElementById("submit").addEventListener("click", (e) => {
       e.preventDefault();

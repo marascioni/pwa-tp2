@@ -50,6 +50,7 @@ const crearCatalogo = (json) => {
 const mostrarLista = () => {
   listaPersonajes.innerHTML = "";
   listaPersonajes.classList.add("lP-extend");
+  listaPersonajes.classList.add('lP-height');
   catalogoCompleto.forEach((itemPersonaje) => {
     var perSeleccionado = document.createElement("button");
     perSeleccionado.type = "button";

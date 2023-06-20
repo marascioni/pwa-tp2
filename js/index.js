@@ -18,7 +18,7 @@ window.addEventListener("beforeunload", () => {
  */
 buscar.addEventListener("click", (event) => {  
   event.preventDefault();
-  listaPersonajes.innerHTML='';
+  listaPersonajes.innerHTML='';  
   buscarMarvelAPI(inputPersonaje.value);
   inputPersonaje.value='';
   
@@ -29,4 +29,4 @@ buscar.addEventListener("click", (event) => {
 
 listaPersonajes.classList.add("lP-trivia");
 listaPersonajes.classList.remove("lP-height");
-mostrarPregunta(0); */
+mostrarPregunta(0);  */

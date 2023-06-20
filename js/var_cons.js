@@ -7,7 +7,6 @@ const listaPersonajes = document.getElementById("listaPersonajes");
 const botones = document.getElementById("botones");
 const antComic=document.getElementById('antComic');
 const proxComic=document.getElementById('proxComic');
-listaPersonajes.classList.add('lP-height');
 var catalogoCompleto=[];
 var catalogoCompletoComics=[];
 var personajeFiltrado=[];
